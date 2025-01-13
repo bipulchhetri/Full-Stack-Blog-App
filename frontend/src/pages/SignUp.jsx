@@ -20,7 +20,7 @@ e.preventDefault();
 <form onSubmit={submit} className='w-[45w] min-h-[40vh] bg-[#0000] rounded-2xl p-5 flex flex-col items-center'>
 <img className=" w-[240px] h-[80px] object-cover  "src={logo} alt="" />
 <div className='w-full'>
-    <p className='text-[gray] '>Username</p>
+    <p className='text-[gray] '>UserName</p>
     <div className="input-box">
         <input onChange={(e) => { setUsername(e.target.value) }} value={username}  type="text" name="username" id="name" placeholder='Usesrname' required />
     </div>
